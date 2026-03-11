@@ -18,7 +18,7 @@
   .particles {
     position: fixed; top: 0; left: 0;
     width: 100%; height: 100%;
-    pointer-events: none; z-index: 0; overflow: hidden;
+    pointer-events: none; z-index: 5; overflow: hidden;
   }
   .particle {
     position: absolute; border-radius: 50%;
@@ -44,10 +44,10 @@
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
-  .split-screen:hover .half.left:hover   { flex: 1.7; }
-  .split-screen:hover .half.right:hover  { flex: 1.7; }
-  .split-screen:hover .half.left:not(:hover)  { flex: 0.5; }
-  .split-screen:hover .half.right:not(:hover) { flex: 0.5; }
+  .split-screen:hover .half.left:hover   { flex: 1.25; }
+  .split-screen:hover .half.right:hover  { flex: 1.25; }
+  .split-screen:hover .half.left:not(:hover)  { flex: 0.75; }
+  .split-screen:hover .half.right:not(:hover) { flex: 0.75; }
 
   .bg-img {
     position: absolute; inset: 0;
